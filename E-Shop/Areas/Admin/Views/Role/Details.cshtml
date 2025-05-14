@@ -1,0 +1,33 @@
+﻿@model E_Shop.ViewModels.RoleViewModel
+
+@{
+    ViewData["Title"] = "Role Details";
+}
+
+<h2>Role Details</h2>
+
+<div>
+    <h4>Role Information</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Role ID
+        </dt>
+        <dd class="col-sm-10">
+            @Model.RoleId
+        </dd>
+        <dt class="col-sm-2">
+            Role Name
+        </dt>
+        <dd class="col-sm-10">
+            @Model.RoleName
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.RoleId" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    <a class="btn btn-info">Details</a> <!-- এই লাইন যুক্ত করা হলো -->
+</div>
+

@@ -1,0 +1,17 @@
+﻿@model E_Shop.ViewModels.UserRoleViewModel
+@{
+    ViewData["Title"] = "Delete User Role";
+}
+
+<h2>Are you sure you want to delete this assignment?</h2>
+
+<div>
+    <p><strong>User:</strong> @Model.UserName</p>
+    <p><strong>Role:</strong> @Model.RoleName</p>
+</div>
+
+<form asp-action="ConfirmDelete" method="post">
+    <input type="hidden" asp-for="UserRoleId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

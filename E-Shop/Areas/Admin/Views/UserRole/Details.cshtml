@@ -1,0 +1,17 @@
+﻿@model E_Shop.ViewModels.UserRoleViewModel
+
+@{
+    ViewData["Title"] = "User Role Details";
+}
+
+<h2>User Role Details</h2>
+
+<div class="card">
+    <div class="card-body">
+        <p><strong>User:</strong> @Model.UserName</p>
+        <p><strong>Role:</strong> @Model.RoleName</p>
+    </div>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.UserRoleId" class="btn btn-primary mt-3">Edit</a>
+<a asp-action="Index" class="btn btn-secondary mt-3">Back to List</a>

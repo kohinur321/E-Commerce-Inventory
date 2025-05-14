@@ -1,0 +1,82 @@
+﻿@using E_Shop.ViewModel
+@model OrderViewModel
+@{
+    var fullName = Model.Customer != null ? Model.Customer.FirstName + " " + Model.Customer.LastName : "N/A";
+}
+<style>
+    input{border:none}
+</style>
+<form asp-action="Details" enctype="multipart/form-data" method="post" onsubmit="return ValidateForm()">
+    <div class="card">
+        <div class="card-header text-uppercase text-white text-center p-0" style="background:#21909F;">
+            <p style="font-family: 'Brush Script'; font-size: 20px; padding-top: 15px;">Order Details</p>
+        </div>
+        <div class="row pt-3">
+            <div class="col-lg-4 col-lg-3 col-md-2">
+                <div class="row">
+                    <div class="col-3 text-center "><label>Order No: </label></div>
+                    <div class="col-9">
+                        <input asp-for="OrderId" type="text" class="input-field w-100" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-lg-3 col-md-2">
+                <div class="row">
+                    <div class="col-5 text-center "><label>Customer Name: </label></div>
+                    <div class="col-7">
+                        <input asp-for="@fullName" type="text" class="input-field w-100" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-lg-3 col-md-2">
+                <div class="row">
+                    <div class="col-4 text-center "><label>Date & Time: </label></div>
+                    <div class="col-8">
+                        <input asp-for="OrderDate" type="text" class="input-field w-100" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3 px-2 ">
+            <div class="form-group">
+                <table class="table table-sm table-bordered">
+                    <thead class="dark-mode">
+                        <tr style="background:#21909F;">
+                            <th class="text-center" scope="col">Product Name</th>
+                            <th class="text-center" scope="col">Weight</th>
+                            <th class="text-center" scope="col">Price</th>
+                            <th class="text-center" scope="col">Quantity</th>
+                            <th class="text-center" scope="col">Total Price</th>
+                        </tr>
+                    </thead>
+                    <tbody id="itemsbody" class="text-center px-0"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="form-group col-12 p-3">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-md-3 ">
+                <input type="submit" asp-route-id="@Model.OrderId" value="Comfirm Order" class="btn btn-primary btn-block w-100" style="font-size: 18px;" />
+            </div>
+            <div class="col-md-3">
+                <a class="btn btn-secondary btn-block w-100" asp-action="Index" style="font-size: 18px;"
+                   asp-route-pg="@TempData.Peek("CurrentPage")">Back To List</a>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/js/confirmOrder.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            getInit();
+        })
+    </script>
+}

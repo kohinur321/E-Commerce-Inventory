@@ -1,0 +1,124 @@
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    padding-bottom: 60px;
+}
+a{
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+
+main {
+    flex: 1; 
+}
+
+footer {
+    background-color: #f8f9fa; 
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.st{
+    color: red;
+}
+
+.alertify-notifier {
+    top: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.alertify-notifier.ajs-right {
+    top: 10px;
+}
+
+.alertify-notifier.ajs-bottom {
+    right: 6%;
+}
+
+.jconfirm-buttons > button:first-child {
+    margin-right: 5px;
+}
+
+/*Product*/
+.productCard{
+    border-radius: 15px;
+    border: none;
+    transition: all ease 0.2s;
+
+}
+.productCard:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.proImage {
+    transition: transform .2s;
+   
+}
+
+   
+.proImage:hover {
+    transform: scale(.9); 
+}
+
+.img-overlay {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: .4s;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card:hover .img-overlay {
+    opacity: 1;
+}
+
+.img-overlay p {
+    font-size: 30px;
+    transition: all 0.3s linear;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    text-align: center;
+    color: white;
+}
+
+.navbar-nav{
+    width: 250px;
+    padding: 20px;
+}
+.nav-item{
+    padding: 5px;
+}
+.nav-item a {
+    padding-left: 5px;
+}
+
+a.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}

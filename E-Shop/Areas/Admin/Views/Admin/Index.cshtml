@@ -1,0 +1,36 @@
+﻿<div class="row">
+    <div class="col-lg-3 col-6 bg-danger text-white fw-bold text-center text-uppercase m-2">
+        <div class="small-box p-2">
+            <div class="inner">
+                <h3 id="pendingOrder"></h3>
+                <p>Pending Order</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-spinner"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-6 bg-primary text-white fw-bold text-center text-uppercase m-2">
+        <div class="small-box p-2">
+            <div class="inner">
+                <h3 id="completeOrder"></h3>
+                <p>Complete Order</p>
+            </div>
+            <div class="icon">
+                <i class="fa-solid fa-check"></i>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script src="~/js/admindashboard.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            getOrderPending();
+            getOrderComplete();
+        });  
+    </script>
+}

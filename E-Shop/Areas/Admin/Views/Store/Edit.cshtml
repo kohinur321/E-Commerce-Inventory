@@ -1,0 +1,43 @@
+﻿@model E_Shop.ViewModels.StoreViewModel
+
+@{
+    ViewData["Title"] = "Edit Store";
+}
+
+<div class="card">
+    <div class="card-header text-uppercase text-white text-center p-0" style="background:#21909F;">
+        <p style="font-family: 'Brush Script'; font-size: 20px; padding-top: 15px;">Edit Store</p>
+    </div>
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <div class="row pt-3 col-10 m-auto">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="form-group col-md-12">
+                        <label asp-for="StoreName" class="control-label">Store Name<span class="st"> *</span></label>
+                        <input asp-for="StoreName" class="form-control" />
+                        <span asp-validation-for="StoreName" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group col-12 p-3">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-md-3">
+                    <input type="submit" value="Save" class="btn btn-primary btn-block w-100" style="font-size: 18px;" />
+                </div>
+                <div class="col-md-3">
+                    <a class="btn btn-secondary btn-block w-100" asp-action="Index" style="font-size: 18px;">Back To List</a>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

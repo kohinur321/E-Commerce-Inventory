@@ -1,0 +1,43 @@
+﻿@model IEnumerable<E_Shop.Models.Admin.StockModel>
+
+@{
+    ViewData["Title"] = "Stock List";
+}
+
+<h2>Stock List</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Stock ID</th>
+            <th>Product ID</th>
+            <th>Store ID</th>
+            <th>Quantity</th>
+            <th>Stock Type ID</th>
+            <th>Last Updated</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var stock in Model)
+        {
+            <tr>
+                <td>@stock.StockId</td>
+                <td>@stock.ProductId</td>
+                <td>@stock.StoreId</td>
+                <td>@stock.StockQuantity</td>
+                <td>@stock.StockTypeId</td>
+                <td>@stock.LastUpdated.ToString("g")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@stock.StockId">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@stock.StockId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@stock.StockId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

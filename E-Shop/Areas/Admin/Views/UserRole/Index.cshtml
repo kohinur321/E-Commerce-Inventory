@@ -1,0 +1,48 @@
+﻿@model List<E_Shop.ViewModels.UserRoleViewModel>
+
+@{
+    ViewData["Title"] = "User Roles";
+}
+
+<h2>User Role Assignments</h2>
+
+<div class="mb-3">
+    <a asp-action="Create" class="btn btn-success">Assign New Role</a>
+</div>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>SL</th>
+            <th>User Name</th>
+            <th>Role Name</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count > 0)
+        {
+            int serial = 1;
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@serial</td>
+                    <td>@item.UserName</td>
+                    <td>@item.RoleName</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@item.UserRoleId" class="btn btn-info btn-sm">Details</a>
+                        <a asp-action="Edit" asp-route-id="@item.UserRoleId" class="btn btn-warning btn-sm">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.UserRoleId" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+                serial++;
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4" class="text-center">No user-role assignments found.</td>
+            </tr>
+        }
+    </tbody>
+</table>

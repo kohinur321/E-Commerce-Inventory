@@ -1,0 +1,49 @@
+﻿@model IEnumerable<E_Shop.ViewModel.OrderViewModel>
+@{}
+<div class="card">
+    <div class="card-header text-uppercase text-white text-center p-0" style="background:#21909F;">
+        <p style="font-family: 'Brush Script'; font-size: 20px; padding: 5px;">Pending Order List</p>
+    </div>
+    <div class="row">
+        <div class="card-body table-responsive">
+            <table class="table table-sm table-striped table-bordered" id="myTable">
+                <thead class="dark-mode">
+                    <tr style="background:#21909F;">
+                        <th class="text-center" scope="col"> Order No</th>
+                        <th class="text-center" scope="col"> Customer Name </th>
+                        <th class="text-center" scope="col"> Date & Time</th>
+                        <th class="text-center" scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.OrderId)</td>
+                            <td>@(item.Customer.FirstName + " " + item.Customer.LastName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.OrderDate)</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a asp-action="Details" asp-route-id="@item.OrderId">
+                                        <span class="btn btn-sm ">
+                                            <i class="fa-regular fa-eye text-primary" aria-hidden="true" title="Details"></i>
+                                        </span>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript">
+        $('#myTable').dataTable();
+    </script>
+}

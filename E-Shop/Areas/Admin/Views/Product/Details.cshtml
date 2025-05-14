@@ -1,0 +1,74 @@
+﻿@using E_Shop.ViewModel
+@model ProductViewModel
+@{
+}
+<div class="card">
+    <div class="card-header text-uppercase text-white text-center p-0" style="background:#21909F;">
+        <p style="font-family: 'Brush Script'; font-size: 20px; padding-top: 15px;">Product Information</p>
+    </div>
+    <div asp-validation-summary="ModelOnly" class="text-danger">
+    </div>
+    <div class="row pt-3 col-10 m-auto">
+        <div class="col-md-8">
+            <div class="row">
+                <input asp-for="ProductId" hidden />
+                <div class="form-group col-md-12">
+                    <label class="control-label">Name</label>
+                    <input asp-for="Name" class="form-control" readonly />
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="form-group col-12">
+                    <label class="control-label">Price</label>
+                    <input asp-for="Price" class="form-control" readonly />
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="form-group col-md-12">
+                    <label class="control-label">Unit</label>
+                    <input asp-for="Unit" class="form-control" readonly/>
+                </div>
+            </div>
+            <div class="row pt-2">
+                <div class="form-group col-md-12">
+                    <label class="control-label">Description</label>
+                    <textarea asp-for="Description" class="form-control" readonly></textarea>
+                </div>
+            </div>
+
+            <div class="row pt-2">
+                <div class="form-group col-md-12">
+                    <input asp-for="isAvailable" type="checkbox" class="form-check-inline" disabled />
+                    <label class="control-label">Is Available?</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row py-3">
+                <div class="form-group col-12">
+                    <img id="PhotoPrv" src="~/images/@Model.ImageUrl"  style="border: 1px; margin: 10px; width: 300px; height: 300px;" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="form-group col-12 p-3">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-md-3 ">
+            <a class="btn btn-primary btn-block w-100" asp-action="Edit" asp-route-id="@Model.ProductId" style="font-size: 18px;"
+               asp-route-pg="@TempData.Peek("CurrentPage")">Back To Edit</a>
+        </div>
+        <div class="col-md-3">
+            <a class="btn btn-secondary btn-block w-100" asp-action="Index" style="font-size: 18px;"
+               asp-route-pg="@TempData.Peek("CurrentPage")">Back To List</a>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+
+@section Scripts{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

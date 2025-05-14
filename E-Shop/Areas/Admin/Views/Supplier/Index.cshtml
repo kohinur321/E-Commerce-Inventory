@@ -1,0 +1,68 @@
+﻿@model IEnumerable<E_Shop.ViewModels.SupplierViewModel>
+
+<div class="col-12 text-end mb-3">
+    <a asp-action="Create" asp-controller="Supplier" class="btn btn-success shadow-sm">
+        <i class="fas fa-plus-circle"></i> Create New Supplier
+    </a>
+</div>
+
+<div class="card shadow">
+    <div class="card-header text-white text-center" style="background-color: #21909F;">
+        <h5 class="mb-0" style="font-family: 'Brush Script MT', cursive;">Supplier Information</h5>
+    </div>
+
+    <div class="card-body table-responsive">
+        <table class="table table-bordered table-hover table-sm text-center align-middle" id="myTable">
+            <thead class="table-info">
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Contact Number</th>
+                    <th>Email</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.SupplierName)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Address)</td>
+                        <td>@Html.DisplayFor(modelItem => item.ContactNumber)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                        <td>
+                            <div class="d-flex justify-content-center gap-2">
+
+                                <a asp-action="Edit" asp-route-id="@item.SupplierId" class="btn btn-sm btn-outline-success" title="Edit">
+                                    <i class="fas fa-edit"></i>
+                                </a>
+
+                                <a asp-action="Details" asp-route-id="@item.SupplierId" class="btn btn-sm btn-outline-primary" title="Details">
+                                    <i class="fas fa-eye"></i>
+                                </a>
+
+                                <a asp-action="Delete" asp-route-id="@item.SupplierId" class="btn btn-sm btn-outline-danger" title="Delete">
+                                    <i class="fas fa-trash-alt"></i>
+                                </a>
+
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        $(document).ready(function () {
+            $('#myTable').DataTable({
+                responsive: true,
+                autoWidth: false,
+                pageLength: 10
+            });
+        });
+    </script>
+}

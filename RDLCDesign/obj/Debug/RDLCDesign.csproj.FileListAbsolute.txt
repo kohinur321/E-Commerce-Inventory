@@ -1,0 +1,55 @@
+E:\Task\Task\E-Shop  With RDLC\RDLCDesign\bin\Debug\RDLCDesign.exe.config
+E:\Task\Task\E-Shop  With RDLC\RDLCDesign\bin\Debug\RDLCDesign.exe
+E:\Task\Task\E-Shop  With RDLC\RDLCDesign\bin\Debug\RDLCDesign.pdb
+E:\Task\Task\E-Shop  With RDLC\RDLCDesign\obj\Debug\RDLCDesign.csproj.AssemblyReference.cache
+E:\Task\Task\E-Shop  With RDLC\RDLCDesign\obj\Debug\RDLCDesign.csproj.SuggestedBindingRedirects.cache
+E:\Task\Task\E-Shop  With RDLC\RDLCDesign\obj\Debug\RDLCDesign.Properties.Resources.resources
+E:\Task\Task\E-Shop  With RDLC\RDLCDesign\obj\Debug\RDLCDesign.csproj.GenerateResource.cache
+E:\Task\Task\E-Shop  With RDLC\RDLCDesign\obj\Debug\RDLCDesign.csproj.CoreCompileInputs.cache
+E:\Task\Task\E-Shop  With RDLC\RDLCDesign\obj\Debug\RDLCDesign.exe
+E:\Task\Task\E-Shop  With RDLC\RDLCDesign\obj\Debug\RDLCDesign.pdb
+C:\Users\USER\Desktop\Project-2\RDLCDesign\bin\Debug\RDLCDesign.exe.config
+C:\Users\USER\Desktop\Project-2\RDLCDesign\bin\Debug\RDLCDesign.exe
+C:\Users\USER\Desktop\Project-2\RDLCDesign\bin\Debug\RDLCDesign.pdb
+C:\Users\USER\Desktop\Project-2\RDLCDesign\obj\Debug\RDLCDesign.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Project-2\RDLCDesign\obj\Debug\RDLCDesign.Properties.Resources.resources
+C:\Users\USER\Desktop\Project-2\RDLCDesign\obj\Debug\RDLCDesign.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\Project-2\RDLCDesign\obj\Debug\RDLCDesign.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Project-2\RDLCDesign\obj\Debug\RDLCDesign.exe
+C:\Users\USER\Desktop\Project-2\RDLCDesign\obj\Debug\RDLCDesign.pdb
+C:\Users\USSL\Downloads\Project-2\Project-2\RDLCDesign\bin\Debug\RDLCDesign.exe.config
+C:\Users\USSL\Downloads\Project-2\Project-2\RDLCDesign\bin\Debug\RDLCDesign.exe
+C:\Users\USSL\Downloads\Project-2\Project-2\RDLCDesign\bin\Debug\RDLCDesign.pdb
+C:\Users\USSL\Downloads\Project-2\Project-2\RDLCDesign\obj\Debug\RDLCDesign.csproj.AssemblyReference.cache
+C:\Users\USSL\Downloads\Project-2\Project-2\RDLCDesign\obj\Debug\RDLCDesign.Properties.Resources.resources
+C:\Users\USSL\Downloads\Project-2\Project-2\RDLCDesign\obj\Debug\RDLCDesign.csproj.GenerateResource.cache
+C:\Users\USSL\Downloads\Project-2\Project-2\RDLCDesign\obj\Debug\RDLCDesign.csproj.CoreCompileInputs.cache
+C:\Users\USSL\Downloads\Project-2\Project-2\RDLCDesign\obj\Debug\RDLCDesign.exe
+C:\Users\USSL\Downloads\Project-2\Project-2\RDLCDesign\obj\Debug\RDLCDesign.pdb
+C:\Users\User\Downloads\E-Shop Project\RDLCDesign\bin\Debug\RDLCDesign.exe.config
+C:\Users\User\Downloads\E-Shop Project\RDLCDesign\bin\Debug\RDLCDesign.exe
+C:\Users\User\Downloads\E-Shop Project\RDLCDesign\bin\Debug\RDLCDesign.pdb
+C:\Users\User\Downloads\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.Properties.Resources.resources
+C:\Users\User\Downloads\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.csproj.GenerateResource.cache
+C:\Users\User\Downloads\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.exe
+C:\Users\User\Downloads\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.pdb
+C:\Users\princ\Desktop\E-Shop\E-Shop Project\E-Shop Project\RDLCDesign\bin\Debug\RDLCDesign.exe.config
+C:\Users\princ\Desktop\E-Shop\E-Shop Project\E-Shop Project\RDLCDesign\bin\Debug\RDLCDesign.exe
+C:\Users\princ\Desktop\E-Shop\E-Shop Project\E-Shop Project\RDLCDesign\bin\Debug\RDLCDesign.pdb
+C:\Users\princ\Desktop\E-Shop\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.csproj.AssemblyReference.cache
+C:\Users\princ\Desktop\E-Shop\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.Properties.Resources.resources
+C:\Users\princ\Desktop\E-Shop\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.csproj.GenerateResource.cache
+C:\Users\princ\Desktop\E-Shop\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.csproj.CoreCompileInputs.cache
+C:\Users\princ\Desktop\E-Shop\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.exe
+C:\Users\princ\Desktop\E-Shop\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.pdb
+C:\Users\User\Downloads\E-Shop Project\E-Shop Project\RDLCDesign\bin\Debug\RDLCDesign.exe.config
+C:\Users\User\Downloads\E-Shop Project\E-Shop Project\RDLCDesign\bin\Debug\RDLCDesign.exe
+C:\Users\User\Downloads\E-Shop Project\E-Shop Project\RDLCDesign\bin\Debug\RDLCDesign.pdb
+C:\Users\User\Downloads\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.Properties.Resources.resources
+C:\Users\User\Downloads\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.csproj.GenerateResource.cache
+C:\Users\User\Downloads\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.exe
+C:\Users\User\Downloads\E-Shop Project\E-Shop Project\RDLCDesign\obj\Debug\RDLCDesign.pdb

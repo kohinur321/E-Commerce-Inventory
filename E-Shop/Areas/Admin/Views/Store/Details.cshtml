@@ -1,0 +1,35 @@
+﻿@model E_Shop.ViewModels.StoreViewModel
+
+@{
+    ViewData["Title"] = "Store Details";
+}
+
+<div class="card mt-3">
+    <div class="card-header text-uppercase text-white text-center p-0" style="background:#21909F;">
+        <p style="font-family: 'Brush Script'; font-size: 20px; padding-top: 15px;">Store Details</p>
+    </div>
+
+    <div class="card-body">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <dl class="row">
+                    <dt class="col-sm-4 text-end">
+                        @Html.DisplayNameFor(model => model.StoreName)
+                    </dt>
+                    <dd class="col-sm-8">
+                        @Html.DisplayFor(model => model.StoreName)
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="row justify-content-center pt-3">
+            <div class="col-md-2">
+                <a asp-action="Edit" asp-route-id="@Model?.StoreId" class="btn btn-warning w-100">Edit</a>
+            </div>
+            <div class="col-md-2">
+                <a asp-action="Index" class="btn btn-secondary w-100">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>

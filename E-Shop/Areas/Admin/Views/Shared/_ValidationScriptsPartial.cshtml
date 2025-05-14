@@ -1,0 +1,16 @@
+﻿<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        var smsg = "@TempData["SuccessMessage"]";
+        if (smsg != "") {
+            alertify.notify(smsg, 'success');
+        }
+        var emsg = "@TempData["ErrorMessage"]";
+        if (emsg != "") {
+            alertify.error(emsg);
+        }
+    });
+</script>    

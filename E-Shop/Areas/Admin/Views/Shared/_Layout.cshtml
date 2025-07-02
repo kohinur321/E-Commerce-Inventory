@@ -1,91 +1,162 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] E-Shop</title>
+    <title>@ViewData["Title"] - E-Shop</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/all.min.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/lib/dataTable/jquery.dataTables.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/lib/dataTable/jquery.dataTables.min.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/E_Shop.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/alertify.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/alertify.css" />
 </head>
-<body >
+<body class="d-flex flex-column min-vh-100">
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-info border-bottom box-shadow">
+        <nav class="navbar navbar-expand-sm navbar-light bg-info border-bottom box-shadow">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">E_Shop</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">E-Commerce & Inventory</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
         </nav>
     </header>
-    <div class="row mx-0 px-0">
-        <div class="col-lg-2 bg-info px-0">
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-light bg-primary active" asp-area="Admin" asp-controller="Admin" asp-action="Index">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="Order" asp-action="Index">Order</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="Store" asp-action="Index">Store</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="Supplier" asp-action="Index">Supplier </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="User" asp-action="Index">User </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="Role" asp-action="Index">Role </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="UserRole" asp-action="Index">UserRole </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="Stock" asp-action="Index">Stock </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="StockType" asp-action="Index">StockType </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="Purchase" asp-action="Index">Purchase </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="InventoryType" asp-action="Index">InventoryType </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="Admin" asp-controller="Reports" asp-action="ProductDetailsReports" target="_blank">Report</a>
-                    </li>
-                </ul>
+
+    <div class="container-fluid flex-grow-1">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-lg-2 bg-info min-vh-100 px-0">
+                <div class="navbar-collapse collapse d-sm-inline-flex flex-column">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a class="nav-link text-light bg-primary active" asp-area="Admin" asp-controller="Admin" asp-action="Index">
+                                <i class="fas fa-tachometer-alt"></i> Dashboard
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Product" asp-action="Index">
+                                <i class="fas fa-box-open"></i> Product
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Purchase" asp-action="Create">
+                                <i class="fas fa-box-open"></i> Purchase
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Order" asp-action="Index">
+                                <i class="fas fa-shopping-cart"></i> Order
+                            </a>
+                        </li> 
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Transfer" asp-action="Create">
+                                <i class="fas fa-shopping-cart"></i> Transfer
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Sale" asp-action="Create">
+                                <i class="fas fa-shopping-cart"></i> Sale
+                            </a>
+                        </li>
+                       
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="ProductType" asp-action="Create">
+                                <i class="fas fa-shopping-cart"></i> ProductType
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Store" asp-action="Index">
+                                <i class="fas fa-store"></i> Store
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Supplier" asp-action="Index">
+                                <i class="fas fa-truck"></i> Supplier
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="User" asp-action="Index">
+                                <i class="fas fa-users"></i> User
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Role" asp-action="Index">
+                                <i class="fas fa-user-shield"></i> Role
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="UserRole" asp-action="Index">
+                                <i class="fas fa-user-tag"></i> UserRole
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Stock" asp-action="Index">
+                                <i class="fas fa-warehouse"></i> Stock
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="StockType" asp-action="Index">
+                                <i class="fas fa-tags"></i> StockType
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="TransactionType" asp-action="Index">
+                                <i class="fas fa-exchange-alt"></i> TransactionType
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Damage" asp-action="Index">
+                                <i class="fas fa-exchange-alt"></i> Damage
+                            </a>
+                            <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="DamageDetails" asp-action="Index">
+                                <i class="fas fa-exchange-alt"></i> DamageDetails
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Ledger" asp-action="Index">
+                                <i class="fas fa-book"></i> Ledger
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="InventoryType" asp-action="Index">
+                                <i class="fas fa-boxes"></i> InventoryType
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-link text-light" asp-area="Admin" asp-controller="Reports" asp-action="ProductDetailsReports" target="_blank">
+                                <i class="fas fa-chart-line"></i> Report
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-10 m-auto col-md-12">
-            <div class="container">
-                <main role="main" class="py-3 m-0">
+
+            <!-- Main Content -->
+            <div class="col-lg-10 px-4 pt-3">
+                <main role="main">
                     @RenderBody()
                 </main>
             </div>
         </div>
     </div>
-    <footer class="main-footer text-center">
-        <strong>Copyright &copy; 2023 </strong>
+
+    <footer class="main-footer text-center mt-auto py-3 bg-light">
+        <strong>Copyright &copy;All Right Reserved By E-Commerce & Inventory 2025 </strong>
     </footer>
 
-    
-    <script src="~/js/all.min.js"></script>
+    <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/dataTable/jquery.dataTables.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/dataTable/jquery.dataTables.min.js"></script>
+    <script src="~/js/all.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/lib/alertify.js"></script>
     @await RenderSectionAsync("Scripts", required: false)

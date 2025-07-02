@@ -1,0 +1,43 @@
+﻿@model IEnumerable<E_Shop.ViewModels.DamageDetailViewModel>
+
+@{
+    ViewData["Title"] = "Damage Details";
+}
+
+<h1>Damage Details</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>VAT</th>
+            <th>Sub Total</th>
+            <th>Store</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.Price</td>
+                <td>@item.Quantity</td>
+                <td>@item.Vat</td>
+                <td>@item.SubTotal</td>
+                <td>@item.StoreName</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.DamageDetailId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.DamageDetailId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.DamageDetailId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

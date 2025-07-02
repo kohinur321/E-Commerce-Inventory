@@ -1,0 +1,78 @@
+﻿@model E_Shop.ViewModels.SaleViewModel
+
+@{
+    ViewData["Title"] = "Create Sale";
+}
+
+<h2>Create Sale</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CustomerId" class="control-label"></label>
+        <select asp-for="CustomerId" asp-items="ViewBag.Customers" class="form-control">
+            <option value="">-- Select Customer --</option>
+        </select>
+        <span asp-validation-for="CustomerId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group form-check">
+        <input asp-for="IsApprove" class="form-check-input" />
+        <label asp-for="IsApprove" class="form-check-label"></label>
+    </div>
+
+    <hr />
+    <h4>Sale Details</h4>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Store</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th>VAT</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < (Model.SaleDetailsViewModels?.Count ?? 0); i++)
+            {
+                <tr>
+                    <td>
+                        <select asp-for="SaleDetailsViewModels[@i].ProductId"
+                                asp-items="ViewBag.Products"
+                                class="form-control"></select>
+                    </td>
+                    <td>
+                        <select asp-for="SaleDetailsViewModels[@i].StoreId"
+                                asp-items="ViewBag.Stores"
+                                class="form-control"></select>
+                    </td>
+                    <td>
+                        <input asp-for="SaleDetailsViewModels[@i].Quantity" class="form-control" />
+                    </td>
+                    <td>
+                        <input asp-for="SaleDetailsViewModels[@i].Price" class="form-control" />
+                    </td>
+                    <td>
+                        <input asp-for="SaleDetailsViewModels[@i].Vat" class="form-control" />
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

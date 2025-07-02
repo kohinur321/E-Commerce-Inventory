@@ -1,0 +1,49 @@
+﻿@model E_Shop.ViewModels.LedgerViewModel
+@{
+    ViewData["Title"] = "Create Ledger";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="@ViewData["Title"]" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="StockId" class="control-label"></label>
+        <input asp-for="StockId" class="form-control" />
+        <span asp-validation-for="StockId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TransactionTypeId" class="control-label"></label>
+        <input asp-for="TransactionTypeId" class="form-control" />
+        <span asp-validation-for="TransactionTypeId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Amount" class="control-label"></label>
+        <input asp-for="Amount" class="form-control" />
+        <span asp-validation-for="Amount" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TransactionDate" class="control-label"></label>
+        <input asp-for="TransactionDate" class="form-control" type="date" />
+        <span asp-validation-for="TransactionDate" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

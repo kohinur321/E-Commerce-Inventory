@@ -102,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ovs0io1t59</Fingerprint>
-      <Integrity>NJTCg4VhqwRLaOuaMBUoiMvkSPmNp70L9+Z84mzOkgc=</Integrity>
+      <Fingerprint>tovoy67j0d</Fingerprint>
+      <Integrity>bSAVsc1kcHUmez2+fI3Pm7EKuwazhYuQL8J/sQXJXQs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -215,6 +215,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\10d60c54-f555-4e53-a83f-f96cddd91178_OIP.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\144b6728-1dee-4eb7-8d0f-6a346dd9af98_ecg.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/144b6728-1dee-4eb7-8d0f-6a346dd9af98_ecg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pct8v620dx</Fingerprint>
+      <Integrity>mb1fKB/KZnYT9WErvq58bhsqQfw5z5Yb0kY3jpOKrno=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\144b6728-1dee-4eb7-8d0f-6a346dd9af98_ecg.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\265ef294-f97a-4286-aab9-db9883bc67b4_ecg.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/265ef294-f97a-4286-aab9-db9883bc67b4_ecg.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pct8v620dx</Fingerprint>
+      <Integrity>mb1fKB/KZnYT9WErvq58bhsqQfw5z5Yb0kY3jpOKrno=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\265ef294-f97a-4286-aab9-db9883bc67b4_ecg.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\38140b2f-ee15-4e2c-b275-7dbdc8ca1a76_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg'))">
       <SourceType>Package</SourceType>
@@ -342,6 +378,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7a32ec3d-8743-40c5-82f4-5ba8a0139329_gazor.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8534f74d-73a4-4747-8fa0-49a5e201700e_cute.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/8534f74d-73a4-4747-8fa0-49a5e201700e_cute.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>corxf8z55f</Fingerprint>
+      <Integrity>pPaKZsNo4VfbQ3zl33C8EkCdA55sCdCCOBHxjLeCt08=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\8534f74d-73a4-4747-8fa0-49a5e201700e_cute.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\886e8b3a-cd50-455a-82cc-df236e45e5c2_chaldal-premium-tatkini-fish-cut-clean-5-8-pcs-50-gm-500-gm.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>E-Shop</SourceId>
@@ -378,6 +432,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\97a53215-1f49-4c90-a82e-f34b27737811_rup-chada-5-lit.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a3c01613-c06c-4034-bfa8-9ee4e514608e_a1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/a3c01613-c06c-4034-bfa8-9ee4e514608e_a1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qoxhr8qrst</Fingerprint>
+      <Integrity>NsDR+slmZReFGPzmvFQ17RMCAufDpflfT4SAJ/T8PO0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a3c01613-c06c-4034-bfa8-9ee4e514608e_a1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a51fbcb4-c7b1-4a02-8c6e-d557238516e1_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>E-Shop</SourceId>
@@ -395,6 +467,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a51fbcb4-c7b1-4a02-8c6e-d557238516e1_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\acd1882b-6278-47bb-a221-c617ea55cc2f_Alpha Amylase Test Kit1.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/acd1882b-6278-47bb-a221-c617ea55cc2f_Alpha Amylase Test Kit1.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n0dihyqjxd</Fingerprint>
+      <Integrity>Z+sVOTQT5Atx0so5rDdSzV7uUAFgr3cG9Zjhy9t31Ic=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\acd1882b-6278-47bb-a221-c617ea55cc2f_Alpha Amylase Test Kit1.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b1d35ad7-49b6-4b0d-b8fe-05d89f2fabb3_Albumin Test Kit.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/b1d35ad7-49b6-4b0d-b8fe-05d89f2fabb3_Albumin Test Kit.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uu3wjsyw15</Fingerprint>
+      <Integrity>eiGLO684nhHW6iv/+IPDjKAN4TQOS7m9+o4uaKAU6BE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b1d35ad7-49b6-4b0d-b8fe-05d89f2fabb3_Albumin Test Kit.jpeg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bc5cb042-d07a-4aca-a554-5767ffb309ee_computer.jpg'))">
       <SourceType>Package</SourceType>
@@ -414,6 +522,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\bc5cb042-d07a-4aca-a554-5767ffb309ee_computer.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c66712c6-8b8b-40cb-a3d7-744fc868b36e_b.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/c66712c6-8b8b-40cb-a3d7-744fc868b36e_b.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tdg8pfr8t0</Fingerprint>
+      <Integrity>8QlMG+nadukC3OElBBQbgG06Y3f00Fxv4XH1x2Y5Qkk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\c66712c6-8b8b-40cb-a3d7-744fc868b36e_b.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d2185016-bd42-4055-98f3-4fc87ac8983d_IMG20241221155139.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/d2185016-bd42-4055-98f3-4fc87ac8983d_IMG20241221155139.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ba257a3lc6</Fingerprint>
+      <Integrity>LSbSQPglgOXjXXyN4hDa2529JTn1NZByo+pdqPLwl7c=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d2185016-bd42-4055-98f3-4fc87ac8983d_IMG20241221155139.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d5c08955-0cf9-4a49-a652-c5fdc62c95c3_lahZFuh4.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>E-Shop</SourceId>
@@ -431,6 +575,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d5c08955-0cf9-4a49-a652-c5fdc62c95c3_lahZFuh4.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d870ebb8-8231-4a7f-8ca9-387eca48b8b8_a1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/d870ebb8-8231-4a7f-8ca9-387eca48b8b8_a1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qoxhr8qrst</Fingerprint>
+      <Integrity>NsDR+slmZReFGPzmvFQ17RMCAufDpflfT4SAJ/T8PO0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d870ebb8-8231-4a7f-8ca9-387eca48b8b8_a1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\d9ed444d-37ca-48da-bd7f-d32426bcb2b4_red potato.png'))">
       <SourceType>Package</SourceType>
@@ -468,6 +630,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\dd8da103-6d9a-4bb6-a5d2-c9c926b1d632_computer.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e20a0f5d-3445-42e9-aa7a-ba5395364fe7_a1.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/e20a0f5d-3445-42e9-aa7a-ba5395364fe7_a1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qoxhr8qrst</Fingerprint>
+      <Integrity>NsDR+slmZReFGPzmvFQ17RMCAufDpflfT4SAJ/T8PO0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e20a0f5d-3445-42e9-aa7a-ba5395364fe7_a1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e80acf9e-7acb-4163-87a3-6de363f15514_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg'))">
       <SourceType>Package</SourceType>
       <SourceId>E-Shop</SourceId>
@@ -485,6 +665,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e80acf9e-7acb-4163-87a3-6de363f15514_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\eafd1eb4-d09d-4326-82fc-637bd1c86e04_acetic.jpeg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/eafd1eb4-d09d-4326-82fc-637bd1c86e04_acetic.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ha95dfgd45</Fingerprint>
+      <Integrity>tzidjaKb/RaRJSd2e24o7CJg93OI9MP3DLxnMrvHjhs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\eafd1eb4-d09d-4326-82fc-637bd1c86e04_acetic.jpeg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ff1d335a-fa4b-4c80-806c-4d61bbcbb3fb_Alcohol Pad.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>E-Shop</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/E-Shop</BasePath>
+      <RelativePath>images/ff1d335a-fa4b-4c80-806c-4d61bbcbb3fb_Alcohol Pad.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zf52sp0ucg</Fingerprint>
+      <Integrity>8VdfdI8cLZ/YjjcmK/NFTfjP1fpL9kKj+Zuy7tmlIAI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ff1d335a-fa4b-4c80-806c-4d61bbcbb3fb_Alcohol Pad.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\noimage.png'))">
       <SourceType>Package</SourceType>

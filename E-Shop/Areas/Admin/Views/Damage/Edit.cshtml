@@ -1,0 +1,45 @@
+﻿@model E_Shop.ViewModels.DamageViewModel
+
+@{
+    ViewData["Title"] = "Edit Damage";
+}
+
+<h2>Edit Damage</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="DamageId" />
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="GrandTotal"></label>
+        <input asp-for="GrandTotal" class="form-control" />
+        <span asp-validation-for="GrandTotal" class="text-danger"></span>
+    </div>
+
+    <h4>Damage Details</h4>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.DamageDetails.Count; i++)
+            {
+                <tr>
+                    <td><input asp-for="DamageDetails[@i].ProductName" class="form-control" /></td>
+                    <td><input asp-for="DamageDetails[@i].Quantity" class="form-control" /></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <button type="submit" class="btn btn-success">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

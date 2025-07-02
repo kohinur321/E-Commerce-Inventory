@@ -12,6 +12,7 @@ namespace E_Shop.Data
         }
 
         public DbSet<ProductModel> Product { get; set; }
+        public DbSet<ProductTypeModel> ProductType { get; set; }
         public DbSet<CustomerModel> Customer { get; set; }
         public DbSet<OrderModel> Order { get; set; }
         public DbSet<CartModel> Cart{ get; set; }
@@ -23,9 +24,16 @@ namespace E_Shop.Data
         public DbSet<StockModel> Stocks { get; set; }
         public DbSet<StockTypeModel> StockTypes { get; set; }
         public DbSet<LedgerModel> Ledgers { get; set; }
+        public DbSet<TransactionTypeModel> Transactions { get; set; }
         public DbSet<InventoryTypeModel> InventoryTypes { get; set; }
         public DbSet<PurchaseModel> Purchases { get; set; }
         public DbSet<PurchaseDetailModel> PurchaseDetails { get; set; }
+        public DbSet<TransferModel> Transfers { get; set; }
+        public DbSet<TransferDetailModel> TransferDetails { get; set; }
+        public DbSet<SaleModel> Sales { get; set; }
+        public DbSet<SaleDetailsModel> SaleDetails { get; set; }
+        public DbSet<DamageModel> Damages { get; set; }
+        public DbSet<DamageDetailModel> DamageDetails { get; set; }
 
     }
 }

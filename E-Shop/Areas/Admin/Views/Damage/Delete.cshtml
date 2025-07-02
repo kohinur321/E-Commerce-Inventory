@@ -1,0 +1,21 @@
+﻿@model E_Shop.ViewModels.DamageViewModel
+
+@{
+    ViewData["Title"] = "Delete Damage";
+}
+
+<h2>Delete Confirmation</h2>
+
+<h4>Are you sure you want to delete this damage entry?</h4>
+
+<div>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Grand Total:</strong> @Model.GrandTotal.ToString("C")</p>
+    <p><strong>Approved:</strong> @(Model.IsApprove ? "Yes" : "No")</p>
+</div>
+
+<form asp-action="DeleteConfirmed">
+    <input type="hidden" asp-for="DamageId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

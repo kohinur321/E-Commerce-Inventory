@@ -22,6 +22,10 @@ namespace E_Shop.ViewModels
 
         public int StoreId { get; set; }
 
+        public string ProductName { get; set; } = string.Empty;
+        public string StoreName { get; set; } = string.Empty;
+
+
     }
 
 }

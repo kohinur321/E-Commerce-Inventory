@@ -1,419 +1,467 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\E-Shop.bundle.scp.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\E-Shop.bundle.scp.css",
       "PackagePath": "staticwebassets\\E-Shop.4e1yq8t1d7.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\css\\alertify.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\css\\alertify.css",
       "PackagePath": "staticwebassets\\css\\alertify.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\css\\alertify.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\css\\alertify.min.css",
       "PackagePath": "staticwebassets\\css\\alertify.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\css\\alertify.rtl.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\css\\alertify.rtl.css",
       "PackagePath": "staticwebassets\\css\\alertify.rtl.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\css\\alertify.rtl.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\css\\alertify.rtl.min.css",
       "PackagePath": "staticwebassets\\css\\alertify.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\css\\all.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\css\\all.min.css",
       "PackagePath": "staticwebassets\\css\\all.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\01a6f04d-4ee8-4285-9463-82b258bb7ad2_enedao-potol.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\01a6f04d-4ee8-4285-9463-82b258bb7ad2_enedao-potol.jpg",
       "PackagePath": "staticwebassets\\images\\01a6f04d-4ee8-4285-9463-82b258bb7ad2_enedao-potol.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\0f218792-6ff8-44a9-9444-d8766a99e2c0_enedao-potol.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\0f218792-6ff8-44a9-9444-d8766a99e2c0_enedao-potol.jpg",
       "PackagePath": "staticwebassets\\images\\0f218792-6ff8-44a9-9444-d8766a99e2c0_enedao-potol.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\0f6408c5-0cec-4766-b794-702ba40f1dc6_red-tomato-25-gm-500-gm.jpeg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\0f6408c5-0cec-4766-b794-702ba40f1dc6_red-tomato-25-gm-500-gm.jpeg",
       "PackagePath": "staticwebassets\\images\\0f6408c5-0cec-4766-b794-702ba40f1dc6_red-tomato-25-gm-500-gm.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\10d60c54-f555-4e53-a83f-f96cddd91178_OIP.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\10d60c54-f555-4e53-a83f-f96cddd91178_OIP.jpg",
       "PackagePath": "staticwebassets\\images\\10d60c54-f555-4e53-a83f-f96cddd91178_OIP.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\38140b2f-ee15-4e2c-b275-7dbdc8ca1a76_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\144b6728-1dee-4eb7-8d0f-6a346dd9af98_ecg.jpg",
+      "PackagePath": "staticwebassets\\images\\144b6728-1dee-4eb7-8d0f-6a346dd9af98_ecg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\265ef294-f97a-4286-aab9-db9883bc67b4_ecg.jpg",
+      "PackagePath": "staticwebassets\\images\\265ef294-f97a-4286-aab9-db9883bc67b4_ecg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\38140b2f-ee15-4e2c-b275-7dbdc8ca1a76_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg",
       "PackagePath": "staticwebassets\\images\\38140b2f-ee15-4e2c-b275-7dbdc8ca1a76_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\471d2027-756d-4314-8cae-c9d124b3f159_deshi-shosha-local-cucumber-25-gm-500-gm.jpeg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\471d2027-756d-4314-8cae-c9d124b3f159_deshi-shosha-local-cucumber-25-gm-500-gm.jpeg",
       "PackagePath": "staticwebassets\\images\\471d2027-756d-4314-8cae-c9d124b3f159_deshi-shosha-local-cucumber-25-gm-500-gm.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\62946a95-dea6-4237-aeec-65f48b9fd0c3_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\62946a95-dea6-4237-aeec-65f48b9fd0c3_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg",
       "PackagePath": "staticwebassets\\images\\62946a95-dea6-4237-aeec-65f48b9fd0c3_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\6b51d1b1-dbc6-480c-84e5-f5ed03d14202_computer.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\6b51d1b1-dbc6-480c-84e5-f5ed03d14202_computer.jpg",
       "PackagePath": "staticwebassets\\images\\6b51d1b1-dbc6-480c-84e5-f5ed03d14202_computer.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\6e34a6e6-7a28-49bd-9f9d-449a5056c1e5_61221316-193c-4d24-a882-4eb18b34f24c.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\6e34a6e6-7a28-49bd-9f9d-449a5056c1e5_61221316-193c-4d24-a882-4eb18b34f24c.jpg",
       "PackagePath": "staticwebassets\\images\\6e34a6e6-7a28-49bd-9f9d-449a5056c1e5_61221316-193c-4d24-a882-4eb18b34f24c.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\7682e8fc-858a-4f69-bb76-2e3a794a4ded_tomato-one-hundred-percent.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\7682e8fc-858a-4f69-bb76-2e3a794a4ded_tomato-one-hundred-percent.jpg",
       "PackagePath": "staticwebassets\\images\\7682e8fc-858a-4f69-bb76-2e3a794a4ded_tomato-one-hundred-percent.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\7a32ec3d-8743-40c5-82f4-5ba8a0139329_gazor.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\7a32ec3d-8743-40c5-82f4-5ba8a0139329_gazor.jpg",
       "PackagePath": "staticwebassets\\images\\7a32ec3d-8743-40c5-82f4-5ba8a0139329_gazor.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\886e8b3a-cd50-455a-82cc-df236e45e5c2_chaldal-premium-tatkini-fish-cut-clean-5-8-pcs-50-gm-500-gm.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\8534f74d-73a4-4747-8fa0-49a5e201700e_cute.jpeg",
+      "PackagePath": "staticwebassets\\images\\8534f74d-73a4-4747-8fa0-49a5e201700e_cute.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\886e8b3a-cd50-455a-82cc-df236e45e5c2_chaldal-premium-tatkini-fish-cut-clean-5-8-pcs-50-gm-500-gm.jpg",
       "PackagePath": "staticwebassets\\images\\886e8b3a-cd50-455a-82cc-df236e45e5c2_chaldal-premium-tatkini-fish-cut-clean-5-8-pcs-50-gm-500-gm.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\97a53215-1f49-4c90-a82e-f34b27737811_rup-chada-5-lit.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\97a53215-1f49-4c90-a82e-f34b27737811_rup-chada-5-lit.jpg",
       "PackagePath": "staticwebassets\\images\\97a53215-1f49-4c90-a82e-f34b27737811_rup-chada-5-lit.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\a51fbcb4-c7b1-4a02-8c6e-d557238516e1_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\a3c01613-c06c-4034-bfa8-9ee4e514608e_a1.jpg",
+      "PackagePath": "staticwebassets\\images\\a3c01613-c06c-4034-bfa8-9ee4e514608e_a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\a51fbcb4-c7b1-4a02-8c6e-d557238516e1_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg",
       "PackagePath": "staticwebassets\\images\\a51fbcb4-c7b1-4a02-8c6e-d557238516e1_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\bc5cb042-d07a-4aca-a554-5767ffb309ee_computer.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\acd1882b-6278-47bb-a221-c617ea55cc2f_Alpha Amylase Test Kit1.jpeg",
+      "PackagePath": "staticwebassets\\images\\acd1882b-6278-47bb-a221-c617ea55cc2f_Alpha Amylase Test Kit1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\b1d35ad7-49b6-4b0d-b8fe-05d89f2fabb3_Albumin Test Kit.jpeg",
+      "PackagePath": "staticwebassets\\images\\b1d35ad7-49b6-4b0d-b8fe-05d89f2fabb3_Albumin Test Kit.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\bc5cb042-d07a-4aca-a554-5767ffb309ee_computer.jpg",
       "PackagePath": "staticwebassets\\images\\bc5cb042-d07a-4aca-a554-5767ffb309ee_computer.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\d5c08955-0cf9-4a49-a652-c5fdc62c95c3_lahZFuh4.jpeg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\c66712c6-8b8b-40cb-a3d7-744fc868b36e_b.jpg",
+      "PackagePath": "staticwebassets\\images\\c66712c6-8b8b-40cb-a3d7-744fc868b36e_b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\d2185016-bd42-4055-98f3-4fc87ac8983d_IMG20241221155139.jpg",
+      "PackagePath": "staticwebassets\\images\\d2185016-bd42-4055-98f3-4fc87ac8983d_IMG20241221155139.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\d5c08955-0cf9-4a49-a652-c5fdc62c95c3_lahZFuh4.jpeg",
       "PackagePath": "staticwebassets\\images\\d5c08955-0cf9-4a49-a652-c5fdc62c95c3_lahZFuh4.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\d9ed444d-37ca-48da-bd7f-d32426bcb2b4_red potato.png",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\d870ebb8-8231-4a7f-8ca9-387eca48b8b8_a1.jpg",
+      "PackagePath": "staticwebassets\\images\\d870ebb8-8231-4a7f-8ca9-387eca48b8b8_a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\d9ed444d-37ca-48da-bd7f-d32426bcb2b4_red potato.png",
       "PackagePath": "staticwebassets\\images\\d9ed444d-37ca-48da-bd7f-d32426bcb2b4_red potato.png"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\dd8da103-6d9a-4bb6-a5d2-c9c926b1d632_computer.jpg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\dd8da103-6d9a-4bb6-a5d2-c9c926b1d632_computer.jpg",
       "PackagePath": "staticwebassets\\images\\dd8da103-6d9a-4bb6-a5d2-c9c926b1d632_computer.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\e80acf9e-7acb-4163-87a3-6de363f15514_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\e20a0f5d-3445-42e9-aa7a-ba5395364fe7_a1.jpg",
+      "PackagePath": "staticwebassets\\images\\e20a0f5d-3445-42e9-aa7a-ba5395364fe7_a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\e80acf9e-7acb-4163-87a3-6de363f15514_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg",
       "PackagePath": "staticwebassets\\images\\e80acf9e-7acb-4163-87a3-6de363f15514_chaldal-premium-pangas-fish-headless-30-gm-500-gm.jpeg"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\images\\noimage.png",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\eafd1eb4-d09d-4326-82fc-637bd1c86e04_acetic.jpeg",
+      "PackagePath": "staticwebassets\\images\\eafd1eb4-d09d-4326-82fc-637bd1c86e04_acetic.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\ff1d335a-fa4b-4c80-806c-4d61bbcbb3fb_Alcohol Pad.jpg",
+      "PackagePath": "staticwebassets\\images\\ff1d335a-fa4b-4c80-806c-4d61bbcbb3fb_Alcohol Pad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\images\\noimage.png",
       "PackagePath": "staticwebassets\\images\\noimage.png"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\js\\admindashboard.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\js\\admindashboard.js",
       "PackagePath": "staticwebassets\\js\\admindashboard.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\js\\all.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\js\\all.min.js",
       "PackagePath": "staticwebassets\\js\\all.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\js\\confirmOrder.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\js\\confirmOrder.js",
       "PackagePath": "staticwebassets\\js\\confirmOrder.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\js\\product.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\js\\product.js",
       "PackagePath": "staticwebassets\\js\\product.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\alertify.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\alertify.js",
       "PackagePath": "staticwebassets\\lib\\alertify.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\alertify.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\alertify.min.js",
       "PackagePath": "staticwebassets\\lib\\alertify.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\jquery-confirm.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\css\\jquery-confirm.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\jquery-confirm.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\jquery-confirm.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\bootstrap\\dist\\js\\jquery-confirm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\jquery-confirm.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\dataTable\\jquery.dataTables.min.css",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\dataTable\\jquery.dataTables.min.css",
       "PackagePath": "staticwebassets\\lib\\dataTable\\jquery.dataTables.min.css"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\dataTable\\jquery.dataTables.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\dataTable\\jquery.dataTables.min.js",
       "PackagePath": "staticwebassets\\lib\\dataTable\\jquery.dataTables.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-brands-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-brands-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-regular-400.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-regular-400.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-solid-900.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-solid-900.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
       "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
     },
     {
-      "Id": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "Id": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
       "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
     },
     {

@@ -1,11 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using E_Shop.Models.Admin;
+using E_Shop.Services.Interface;
 
 namespace E_Shop.Models
 {
     public class PurchaseModel
     {
+
         [Key]
         public int PurchaseId { get; set; }
         [StringLength(200)]
@@ -13,10 +15,9 @@ namespace E_Shop.Models
         [ForeignKey("Supplier")]
         public int SupplierId { get; set; }
         public decimal GrandTotal { get; set; }
-        public bool IsApprove { get; set; } 
-        public virtual SupplierModel Suppliers { get; set; }
-        public IList<PurchaseDetailModel> PurchaseDetails { get; set; }
-        public int? InventoryTypeId { get; internal set; }
-        public int? StockTypeId { get; internal set; }
+        public bool IsApprove { get; set; }
+        public virtual SupplierModel Supplier { get; set; }
+        public IList<PurchaseDetailModel> PurchaseDetailsModel { get; set; }
+
     }
 }

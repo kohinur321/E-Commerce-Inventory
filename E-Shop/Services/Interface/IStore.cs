@@ -13,5 +13,6 @@ namespace E_Shop.Services.Interface
         Task<IActionResult> Update(StoreViewModel storeViewModel);
         Task<IActionResult> Delete(int id);
         Task<IEnumerable> GetAllAsync();
+        Task<List<StoreModel>> GetAllStores();
     }
 }

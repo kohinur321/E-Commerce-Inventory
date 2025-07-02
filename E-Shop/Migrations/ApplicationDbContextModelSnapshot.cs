@@ -22,6 +22,69 @@ namespace E_Shop.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("E_Shop.Models.Admin.DamageDetailModel", b =>
+                {
+                    b.Property<int>("DamageDetailId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DamageDetailId"), 1L, 1);
+
+                    b.Property<int>("DamageId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StoreId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("SubTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("Vat")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("DamageDetailId");
+
+                    b.HasIndex("DamageId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("StoreId");
+
+                    b.ToTable("DamageDetails");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.DamageModel", b =>
+                {
+                    b.Property<int>("DamageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("DamageId"), 1L, 1);
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<decimal>("GrandTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<bool>("IsApprove")
+                        .HasColumnType("bit");
+
+                    b.HasKey("DamageId");
+
+                    b.ToTable("Damages");
+                });
+
             modelBuilder.Entity("E_Shop.Models.Admin.LedgerModel", b =>
                 {
                     b.Property<int>("LedgerId")
@@ -30,27 +93,43 @@ namespace E_Shop.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LedgerId"), 1L, 1);
 
-                    b.Property<decimal>("Amount")
+                    b.Property<int>("InventoryTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("StockId")
+                    b.Property<int>("ProductId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("StockModelStockId")
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("TransactionDate")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("StockTypeId")
+                        .HasColumnType("int");
 
-                    b.Property<int>("TransactionTypeId")
+                    b.Property<int>("StoreId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("TransactionTypeModelTransactionTypeId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("LedgerId");
 
-                    b.HasIndex("StockModelStockId");
+                    b.HasIndex("InventoryTypeId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("StockTypeId");
+
+                    b.HasIndex("StoreId");
+
+                    b.HasIndex("TransactionTypeModelTransactionTypeId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Ledgers");
                 });
@@ -117,6 +196,26 @@ namespace E_Shop.Migrations
                     b.ToTable("Product", "Admin");
                 });
 
+            modelBuilder.Entity("E_Shop.Models.Admin.ProductTypeModel", b =>
+                {
+                    b.Property<int>("ProductTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ProductTypeId"), 1L, 1);
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("ProductTypeId");
+
+                    b.ToTable("ProductType");
+                });
+
             modelBuilder.Entity("E_Shop.Models.Admin.RoleModel", b =>
                 {
                     b.Property<int>("RoleId")
@@ -132,6 +231,77 @@ namespace E_Shop.Migrations
                     b.HasKey("RoleId");
 
                     b.ToTable("Roles");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.SaleDetailsModel", b =>
+                {
+                    b.Property<int>("SaleDetailId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SaleDetailId"), 1L, 1);
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SaleId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StoreId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("SubTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("Vat")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("SaleDetailId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("SaleId");
+
+                    b.HasIndex("StoreId");
+
+                    b.ToTable("SaleDetails");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.SaleModel", b =>
+                {
+                    b.Property<int>("SaleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("SaleId"), 1L, 1);
+
+                    b.Property<int>("CustomerId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Description")
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<decimal>("GrandTotal")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<bool>("IsApprove")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsPaid")
+                        .HasColumnType("bit");
+
+                    b.HasKey("SaleId");
+
+                    b.HasIndex("CustomerId");
+
+                    b.ToTable("Sales");
                 });
 
             modelBuilder.Entity("E_Shop.Models.Admin.StockModel", b =>
@@ -213,6 +383,84 @@ namespace E_Shop.Migrations
                     b.HasKey("SupplierId");
 
                     b.ToTable("Supplier", "Admin");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.TransactionTypeModel", b =>
+                {
+                    b.Property<int>("TransactionTypeId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TransactionTypeId"), 1L, 1);
+
+                    b.Property<string>("TransactionTypeName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("TransactionTypeId");
+
+                    b.ToTable("Transactions");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.TransferDetailModel", b =>
+                {
+                    b.Property<int>("TransferDetailId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TransferDetailId"), 1L, 1);
+
+                    b.Property<int>("DistinationStore")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("DistinationStoreNavigationStoreId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int>("SourceStore")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("SourceStoreNavigationStoreId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TransferId")
+                        .HasColumnType("int");
+
+                    b.HasKey("TransferDetailId");
+
+                    b.HasIndex("DistinationStoreNavigationStoreId");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("SourceStoreNavigationStoreId");
+
+                    b.HasIndex("TransferId");
+
+                    b.ToTable("TransferDetails");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.TransferModel", b =>
+                {
+                    b.Property<int>("TransferId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("TransferId"), 1L, 1);
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsApprove")
+                        .HasColumnType("bit");
+
+                    b.HasKey("TransferId");
+
+                    b.ToTable("Transfers");
                 });
 
             modelBuilder.Entity("E_Shop.Models.Admin.UserModel", b =>
@@ -356,24 +604,15 @@ namespace E_Shop.Migrations
                     b.Property<decimal>("GrandTotal")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int?>("InventoryTypeId")
-                        .HasColumnType("int");
-
                     b.Property<bool>("IsApprove")
                         .HasColumnType("bit");
-
-                    b.Property<int?>("StockTypeId")
-                        .HasColumnType("int");
 
                     b.Property<int>("SupplierId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("SuppliersSupplierId")
-                        .HasColumnType("int");
-
                     b.HasKey("PurchaseId");
 
-                    b.HasIndex("SuppliersSupplierId");
+                    b.HasIndex("SupplierId");
 
                     b.ToTable("Purchases");
                 });
@@ -451,16 +690,117 @@ namespace E_Shop.Migrations
                     b.ToTable("Customer", "User");
                 });
 
+            modelBuilder.Entity("E_Shop.Models.Admin.DamageDetailModel", b =>
+                {
+                    b.HasOne("E_Shop.Models.Admin.DamageModel", "Damage")
+                        .WithMany("DamageDetails")
+                        .HasForeignKey("DamageId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("E_Shop.Models.Admin.ProductModel", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("E_Shop.Models.Admin.StoreModel", "Store")
+                        .WithMany()
+                        .HasForeignKey("StoreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Damage");
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Store");
+                });
+
             modelBuilder.Entity("E_Shop.Models.Admin.LedgerModel", b =>
                 {
-                    b.HasOne("E_Shop.Models.Admin.StockModel", "StockModel")
+                    b.HasOne("E_Shop.Models.InventoryTypeModel", "InventoryType")
                         .WithMany()
-                        .HasForeignKey("StockModelStockId");
+                        .HasForeignKey("InventoryTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("StockModel");
+                    b.HasOne("E_Shop.Models.Admin.ProductModel", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("E_Shop.Models.StockTypeModel", "StockType")
+                        .WithMany()
+                        .HasForeignKey("StockTypeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("E_Shop.Models.Admin.StoreModel", "Store")
+                        .WithMany()
+                        .HasForeignKey("StoreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("E_Shop.Models.Admin.TransactionTypeModel", null)
+                        .WithMany("Ledgers")
+                        .HasForeignKey("TransactionTypeModelTransactionTypeId");
+
+                    b.HasOne("E_Shop.Models.Admin.UserModel", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("InventoryType");
+
+                    b.Navigation("Product");
+
+                    b.Navigation("StockType");
+
+                    b.Navigation("Store");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("E_Shop.Models.Admin.OrderModel", b =>
+                {
+                    b.HasOne("E_Shop.Models.User.CustomerModel", "Customer")
+                        .WithMany()
+                        .HasForeignKey("CustomerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Customer");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.SaleDetailsModel", b =>
+                {
+                    b.HasOne("E_Shop.Models.Admin.ProductModel", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("E_Shop.Models.Admin.SaleModel", "Sale")
+                        .WithMany("SaleDetails")
+                        .HasForeignKey("SaleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("E_Shop.Models.Admin.StoreModel", "Store")
+                        .WithMany()
+                        .HasForeignKey("StoreId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("Sale");
+
+                    b.Navigation("Store");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.SaleModel", b =>
                 {
                     b.HasOne("E_Shop.Models.User.CustomerModel", "Customer")
                         .WithMany()
@@ -486,6 +826,37 @@ namespace E_Shop.Migrations
                     b.Navigation("StoreModel");
                 });
 
+            modelBuilder.Entity("E_Shop.Models.Admin.TransferDetailModel", b =>
+                {
+                    b.HasOne("E_Shop.Models.Admin.StoreModel", "DistinationStoreNavigation")
+                        .WithMany()
+                        .HasForeignKey("DistinationStoreNavigationStoreId");
+
+                    b.HasOne("E_Shop.Models.Admin.ProductModel", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("E_Shop.Models.Admin.StoreModel", "SourceStoreNavigation")
+                        .WithMany()
+                        .HasForeignKey("SourceStoreNavigationStoreId");
+
+                    b.HasOne("E_Shop.Models.Admin.TransferModel", "Transfer")
+                        .WithMany("TransferDetails")
+                        .HasForeignKey("TransferId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("DistinationStoreNavigation");
+
+                    b.Navigation("Product");
+
+                    b.Navigation("SourceStoreNavigation");
+
+                    b.Navigation("Transfer");
+                });
+
             modelBuilder.Entity("E_Shop.Models.Admin.UserRoleModel", b =>
                 {
                     b.HasOne("E_Shop.Models.Admin.RoleModel", "RoleModel")
@@ -508,7 +879,7 @@ namespace E_Shop.Migrations
                         .HasForeignKey("ProductsProductId");
 
                     b.HasOne("E_Shop.Models.PurchaseModel", "Purchases")
-                        .WithMany("PurchaseDetails")
+                        .WithMany("PurchaseDetailsModel")
                         .HasForeignKey("PurchasesPurchaseId");
 
                     b.HasOne("E_Shop.Models.Admin.StoreModel", "Stores")
@@ -524,11 +895,13 @@ namespace E_Shop.Migrations
 
             modelBuilder.Entity("E_Shop.Models.PurchaseModel", b =>
                 {
-                    b.HasOne("E_Shop.Models.Admin.SupplierModel", "Suppliers")
+                    b.HasOne("E_Shop.Models.Admin.SupplierModel", "Supplier")
                         .WithMany()
-                        .HasForeignKey("SuppliersSupplierId");
+                        .HasForeignKey("SupplierId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
-                    b.Navigation("Suppliers");
+                    b.Navigation("Supplier");
                 });
 
             modelBuilder.Entity("E_Shop.Models.User.CartModel", b =>
@@ -542,9 +915,29 @@ namespace E_Shop.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("E_Shop.Models.Admin.DamageModel", b =>
+                {
+                    b.Navigation("DamageDetails");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.SaleModel", b =>
+                {
+                    b.Navigation("SaleDetails");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.TransactionTypeModel", b =>
+                {
+                    b.Navigation("Ledgers");
+                });
+
+            modelBuilder.Entity("E_Shop.Models.Admin.TransferModel", b =>
+                {
+                    b.Navigation("TransferDetails");
+                });
+
             modelBuilder.Entity("E_Shop.Models.PurchaseModel", b =>
                 {
-                    b.Navigation("PurchaseDetails");
+                    b.Navigation("PurchaseDetailsModel");
                 });
 #pragma warning restore 612, 618
         }

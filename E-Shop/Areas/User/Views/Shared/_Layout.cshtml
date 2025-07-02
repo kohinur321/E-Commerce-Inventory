@@ -1,71 +1,162 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] E-Shop</title>
+    <title>@ViewData["Title"] - E-Commerce & Inventory</title>
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/all.min.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/lib/dataTable/jquery.dataTables.min.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/lib/dataTable/jquery.dataTables.min.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/E_Shop.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/alertify.css" rel="stylesheet" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/jquery-confirm.min.css" rel="stylesheet" />
-</head>
-<body>
-    <nav class="main-header navbar navbar-expand  text-light" style="background-color: #1275AE;">
-        <div class="container" style="font-size: 20px">
-            <a asp-area="User" asp-action="Index" asp-controller="Home" style="color: white; text-decoration: none;">E-Shop</a>
-            <a  id="cartdetails" class="nav-link" style="color: white;">
-                <i class="fas fa-cart-plus"></i>
-                <sup id="cart"> </sup>
-            </a>
-        </div>
-    </nav>
+    <link rel="stylesheet" href="~/css/alertify.css" />
 
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-link {
+            color: black !important;
+            font-weight: 600;
+            padding: 8px 15px;
+            border-radius: 8px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+            .nav-link:hover {
+                background-color: limegreen;
+                color: darkorchid !important;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+                text-decoration: none;
+            }
+
+        .carousel,
+        .carousel-inner,
+        .carousel-item {
+            height: 100vh !important;
+            width: 100% !important;
+        }
+
+            .carousel-inner img {
+                height: 80vh !important;
+                width: 100% !important;
+                object-fit: cover !important;
+                display: block;
+                margin: 0 auto;
+            }
+    </style>
+</head>
+<body style="background: linear-gradient(to bottom, darkorange);">
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark shadow-sm" style="background-color: orange; height: 70px; width: 100%;">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+                <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+
+                <!-- BRAND: Always left -->
+                <a class="navbar-brand text-white"
+                   asp-controller="Home"
+                   asp-action="Index"
+                   style="font-family: 'Pacifico', cursive; font-size: 2rem; letter-spacing: 1.5px; text-shadow: 2px 2px 5px rgba(0,0,0,0.4);">
+                    <i class="fas fa-store me-2"></i> E-Commerce & Inventory
+                </a>
+
+                <!-- Toggler for small screens -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Main Nav Links (center/right) -->
+                <div class="collapse navbar-collapse justify-content-end me-3" id="navbarNav">
+                    <ul class="navbar-nav d-flex align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="Product" asp-action="Index">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="Admin" asp-controller="Payment" asp-action="Index">Payment</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Link Outside Collapse (far right) -->
+                <div class="d-none d-sm-block">
+                    <a class="nav-link text-white fw-bold" asp-controller="Home" asp-action="Contact"
+                       style="background-color: limegreen; padding: 8px 15px; border-radius: 8px;">
+                        Contact
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <!-- Carousel -->
+    <div id="homeCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://cdn.smartslider3.com/wp-content/uploads/slider361/gallery1.jpg" alt="Slide 1" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to E-Commerce & Inventory</h5>
+                    <p>Find the best products at great prices!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://graphicsfamily.com/wp-content/uploads/edd/2022/04/Social-Media-Banner-Design-for-Health-and-Medical-Promotion-scaled.jpg" alt="Slide 2" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Inventory Management</h5>
+                    <p>Track stock easily and efficiently.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://static.vecteezy.com/system/resources/previews/012/067/452/non_2x/cover-web-banner-design-medical-service-center-health-banner-cover-sale-social-media-post-design-template-vector.jpg" alt="Slide 3" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Fast & Secure</h5>
+                    <p>Experience smooth and secure transactions.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://img.freepik.com/free-vector/flat-design-hospital-facebook-template_23-2149137422.jpg" alt="Slide 4" />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Trusted by Professionals</h5>
+                    <p>Serving thousands of customers every day.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
 
-    <footer class="main-footer text-center">
-        <strong>Copyright &copy; 2023 </strong>
-    </footer>
-    <script src="~/js/all.min.js"></script>
+    @RenderBody()
+
+    <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/dataTable/jquery.dataTables.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/dataTable/jquery.dataTables.min.js"></script>
+    <script src="~/js/all.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/lib/alertify.js"></script>
-    <script src="~/lib/bootstrap/dist/js/jquery-confirm.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
-<script>
-    function showErrorMessageBelowCtrl(ctrlId, message, show) {
-        debugger
-        var divHtml = '<div style="color:red;" id="' + ctrlId + '_err_div" >' + message + '</div>';
-        if (show == true) {
-            $('#' + ctrlId).addClass("highlight");
-            $('#' + ctrlId).after(divHtml);
-        } else {
-            $('#' + ctrlId).removeClass("highlight");
-            $('#' + ctrlId + '_err_div').remove();
-        }
-    }
-
-    $(document).on("input propertychange", ".numbersonly", function (event) {
-        var valstr = $(this).val();
-        var id = $(this).attr("id");
-        var val = parseint(valstr);
-        if (isnan(val)) {
-            $(this).val("");
-        }
-        else if (val < 0) {
-            $(this).val("");
-        } else {
-            $(this).val(val);
-        }
-    });
-</script>

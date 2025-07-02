@@ -94,5 +94,10 @@ namespace E_Shop.Services.Repository
         {
             throw new NotImplementedException();
         }
+
+        public async Task<List<StoreModel>> GetAllStores()
+        {
+            return await _db.Stores.ToListAsync();
+        }
     }
 }

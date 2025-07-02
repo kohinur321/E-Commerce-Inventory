@@ -1,0 +1,136 @@
+﻿@model E_Shop.ViewModels.TransferViewModel
+
+@{
+    ViewData["Title"] = "Create Transfer";
+    var products = ViewBag.Products as List<SelectListItem>;
+    var stores = ViewBag.Stores as List<SelectListItem>;
+}
+
+<h2 class="mb-4 text-primary">Create Transfer</h2>
+
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header bg-primary text-white">Transfer Information</div>
+    <div class="card-body">
+        <form asp-action="Create" method="post">
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label fw-bold"></label>
+                <input asp-for="Description" class="form-control" placeholder="Enter description" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3 form-check">
+                <input asp-for="IsApprove" class="form-check-input" readonly />
+                <label asp-for="IsApprove" class="form-check-label fw-bold"></label>
+                <input type="hidden" asp-for="IsApprove" />
+            </div>
+
+            <input type="hidden" asp-for="TransferId" />
+        </form>
+    </div>
+</div>
+
+<div class="card shadow mb-4">
+    <div class="card-header bg-secondary text-white">Transfer Details</div>
+    <div class="card-body">
+        <table class="table table-bordered table-striped">
+            <thead class="table-light">
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Source Store</th>
+                    <th>Destination Store</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.TransferDetails != null && Model.TransferDetails.Any())
+                {
+                    foreach (var item in Model.TransferDetails)
+                    {
+                        <tr>
+                            <td>@item.ProductName</td>
+                            <td>@item.Quantity</td>
+                            <td>@item.SourceStoreName</td>
+                            <td>@item.DistinationStoreName</td>
+                            <td>
+                                <a asp-action="RemoveDetail" asp-route-id="@item.TransferDetailId" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr><td colspan="5" class="text-center text-muted">No transfer details added yet.</td></tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<div class="card shadow mb-4">
+    <div class="card-header bg-success text-white">Add New Transfer Detail</div>
+    <div class="card-body">
+        <form asp-action="CreateDetail" method="post">
+            <input type="hidden" name="TransferId" value="@Model.TransferId" />
+
+            <div class="row g-3 align-items-end">
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Product</label>
+                    <select name="ProductId" class="form-select" required>
+                        <option value="">-- Select --</option>
+                        @foreach (var product in products)
+                        {
+                            <option value="@product.Value">@product.Text</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label class="form-label fw-bold">Quantity</label>
+                    <input type="number" name="Quantity" class="form-control" required min="1" />
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Source Store</label>
+                    <select name="SourceStore" class="form-select" required>
+                        <option value="">-- Select --</option>
+                        @foreach (var store in stores)
+                        {
+                            <option value="@store.Value">@store.Text</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-3">
+                    <label class="form-label fw-bold">Destination Store</label>
+                    <select name="DistinationStore" class="form-select" required>
+                        <option value="">-- Select --</option>
+                        @foreach (var store in stores)
+                        {
+                            <option value="@store.Value">@store.Text</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-1">
+                    <button type="submit" class="btn btn-success w-100">Add</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="d-flex justify-content-between">
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    <form asp-action="Create" method="post" class="d-inline">
+        <input type="hidden" asp-for="TransferId" />
+        <button type="submit" class="btn btn-primary">Save Transfer</button>
+    </form>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

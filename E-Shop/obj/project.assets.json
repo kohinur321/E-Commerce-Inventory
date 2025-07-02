@@ -10941,11 +10941,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\E-Shop.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\E-Shop.csproj",
       "projectName": "E-Shop",
-      "projectPath": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\E-Shop.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\E-Shop.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Downloads\\E-Shop Project\\E-Shop Project\\E-Shop\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Final\\E-Shop Project\\E-Shop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

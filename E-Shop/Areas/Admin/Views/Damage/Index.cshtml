@@ -1,0 +1,37 @@
+﻿@model IEnumerable<E_Shop.ViewModels.DamageViewModel>
+
+@{
+    ViewData["Title"] = "Damage List";
+}
+
+<h2>Damage List</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Description</th>
+            <th>Grand Total</th>
+            <th>Approved</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Description</td>
+                <td>@item.GrandTotal.ToString("C")</td>
+                <td>@(item.IsApprove ? "Yes" : "No")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.DamageId">Details</a> |
+                    <a asp-action="Edit" asp-route-id="@item.DamageId">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@item.DamageId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

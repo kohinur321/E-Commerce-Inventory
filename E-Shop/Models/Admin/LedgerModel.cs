@@ -1,18 +1,32 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using E_Shop.Migrations;
+using E_Shop.Service.Interface;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace E_Shop.Models.Admin
 {
+
     public class LedgerModel
     {
         [Key]
         public int LedgerId { get; set; }
-        public int StockId { get; set; }
-        public int TransactionTypeId { get; set; }
-        public decimal Amount { get; set; }
-        public DateTime TransactionDate { get; set; }
-        public string Description { get; set; }
-
-        public StockModel StockModel { get; set; }  // Relationship with Stock
-       // public TransactionType TransactionType { get; set; }  // Relationship with TransactionType
+        [ForeignKey("Product")]
+        public int ProductId { get; set; }
+        public decimal Price { get; set; }
+        [ForeignKey("InventoryType")]
+        public int InventoryTypeId { get; set; }
+        [ForeignKey("Users")]
+        public int? UserId { get; set; }
+        public int Quantity { get; set; }
+        [ForeignKey("StockType")]
+        public int StockTypeId { get; set; }
+        [ForeignKey("Store")]
+        public int StoreId { get; set; }
+        public virtual ProductModel Product { get; set; }
+        public virtual InventoryTypeModel InventoryType { get; set; }
+        public virtual UserModel User { get; set; }
+        public virtual StockTypeModel StockType { get; set; }
+        public virtual StoreModel Store { get; set; }
     }
+
 }

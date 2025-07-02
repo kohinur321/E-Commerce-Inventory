@@ -12,6 +12,6 @@ namespace E_Shop.Services.Interface
         Task<ResponseStatus> Delete(int id);
         Task<List<ProductViewModel>> GetAll();
         Task<ProductViewModel> GetById(int id);
-        Task<IEnumerable> GetAllAsync();
+        Task<List<ProductModel>> GetAllProducts();
     }
 }

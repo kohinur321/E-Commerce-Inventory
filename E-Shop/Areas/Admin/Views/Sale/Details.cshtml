@@ -1,0 +1,43 @@
+﻿@model E_Shop.Models.Admin.SaleModel
+
+@{
+    ViewData["Title"] = "Sale Details";
+}
+
+<h2>Sale Details</h2>
+
+<div>
+    <strong>Sale ID:</strong> @Model.SaleId <br />
+    <strong>Customer ID:</strong> @Model.CustomerId <br />
+    <strong>Description:</strong> @Model.Description <br />
+    <strong>Grand Total:</strong> @Model.GrandTotal.ToString("C") <br />
+    <strong>Approved:</strong> @(Model.IsApprove ? "Yes" : "No") <br />
+    <strong>Paid:</strong> @(Model.IsPaid ? "Yes" : "No")
+</div>
+
+<h4 class="mt-4">Sale Items</h4>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Product</th>
+            <th>Store</th>
+            <th>Price</th>
+            <th>Qty</th>
+            <th>VAT</th>
+            <th>SubTotal</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var detail in Model.SaleDetails)
+        {
+            <tr>
+                <td>@detail.Product?.Name</td>
+                <td>@detail.Store?.StoreName</td>
+                <td>@detail.Price</td>
+                <td>@detail.Quantity</td>
+                <td>@detail.Vat</td>
+                <td>@detail.SubTotal</td>
+            </tr>
+        }
+    </tbody>
+</table>

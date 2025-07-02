@@ -5,10 +5,12 @@ namespace E_Shop.Services.Interface
 {
     public interface IPurchase
     {
-        Task<bool> CreateAsync(PurchaseViewModel purchaseViewModel);
-        Task<PurchaseViewModel> GetByIdAsync(int id);
-        Task<List<PurchaseViewModel>> GetAllAsync();
-        Task<bool> UpdateAsync(PurchaseViewModel purchaseViewModel);
-        Task<bool> DeleteAsync(int id);
+        //Task<IActionResult> ApprovePurchase(int purchaseId);
+        Task<List<PurchaseViewModel>> GetAll();
+        Task<PurchaseViewModel> GetById(int id);
+        Task<PurchaseViewModel> CreateMaster(PurchaseViewModel purchaseViewModel);
+        Task<PurchaseDetailViewModel> CreateDetail(PurchaseDetailViewModel detail);
+        Task<PurchaseViewModel> Approve(PurchaseViewModel purchaseViewModel);
+        Task<PurchaseDetailViewModel> RemoveDetail(int id);
     }
 }

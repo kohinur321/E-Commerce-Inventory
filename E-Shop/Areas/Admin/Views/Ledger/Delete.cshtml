@@ -1,0 +1,18 @@
+﻿@model E_Shop.ViewModels.LedgerViewModel
+
+<h2>Delete Ledger</h2>
+
+<h4>Are you sure you want to delete this?</h4>
+<div>
+    <strong>Stock ID:</strong> @Model.StockId<br />
+    <strong>Transaction Type:</strong> @Model.TransactionTypeId<br />
+    <strong>Amount:</strong> @Model.Amount<br />
+    <strong>Date:</strong> @Model.TransactionDate.ToShortDateString()<br />
+    <strong>Description:</strong> @Model.Description
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="LedgerId" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

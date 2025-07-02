@@ -104,6 +104,11 @@ namespace E_Shop.Services.Repository
             throw new NotImplementedException();
         }
 
+        public async Task<List<SupplierModel>> GetAllSupplier()
+        {
+           return await _context.Suppliers.ToListAsync();
+        }
+
         public async Task<SupplierViewModel> GetById(int id)
         {
             var supplier = await _context.Suppliers.Where(x => x.SupplierId == id).FirstOrDefaultAsync();

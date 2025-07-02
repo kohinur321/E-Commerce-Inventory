@@ -193,9 +193,9 @@ namespace E_Shop.Services.Repository
                 return false;
         }
 
-        public Task<IEnumerable> GetAllAsync()
+        public async Task<List<ProductModel>> GetAllProducts()
         {
-            throw new NotImplementedException();
+            return await _context.Product.ToListAsync();
         }
     }
 }

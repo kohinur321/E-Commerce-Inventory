@@ -1,1 +1,39 @@
-﻿
+﻿@model IEnumerable<E_Shop.ViewModels.LedgerViewModel>
+
+@{
+    ViewData["Title"] = "Ledger List";
+}
+
+<h2>Ledger List</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Ledger</a>
+</p>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Stock ID</th>
+            <th>Transaction Type</th>
+            <th>Amount</th>
+            <th>Transaction Date</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.StockId</td>
+                <td>@item.TransactionTypeId</td>
+                <td>@item.Amount</td>
+                <td>@item.TransactionDate.ToShortDateString()</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.LedgerId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.LedgerId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.LedgerId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

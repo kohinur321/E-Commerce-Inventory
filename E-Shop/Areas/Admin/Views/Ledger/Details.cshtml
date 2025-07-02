@@ -1,0 +1,16 @@
+﻿@model E_Shop.ViewModels.LedgerViewModel
+
+<h2>Ledger Details</h2>
+
+<div>
+    <strong>Stock ID:</strong> @Model.StockId<br />
+    <strong>Transaction Type:</strong> @Model.TransactionTypeId<br />
+    <strong>Amount:</strong> @Model.Amount<br />
+    <strong>Date:</strong> @Model.TransactionDate.ToShortDateString()<br />
+    <strong>Description:</strong> @Model.Description
+</div>
+
+<p>
+    <a asp-action="Edit" asp-route-id="@Model.LedgerId" class="btn btn-warning">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+</p>

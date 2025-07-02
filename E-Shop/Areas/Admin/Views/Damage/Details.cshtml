@@ -1,0 +1,34 @@
+﻿@model E_Shop.ViewModels.DamageViewModel
+
+@{
+    ViewData["Title"] = "Damage Details";
+}
+
+<h2>Damage Details</h2>
+
+<div>
+    <p><strong>Description:</strong> @Model.Description</p>
+    <p><strong>Grand Total:</strong> @Model.GrandTotal.ToString("C")</p>
+    <p><strong>Approved:</strong> @(Model.IsApprove ? "Yes" : "No")</p>
+
+    <h4>Damage Items</h4>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.DamageDetails)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>@item.Quantity</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<a asp-action="Index" class="btn btn-secondary">Back</a>

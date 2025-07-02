@@ -1,0 +1,66 @@
+﻿@model List<E_Shop.ViewModels.TransferViewModel>
+
+@{
+    ViewData["Title"] = "Transfer List";
+}
+
+<h2 class="mt-4 mb-4">Transfer List</h2>
+
+<div class="text-end mb-3">
+    <a href="@Url.Action("Create", "Transfer", new { area = "Admin" })" class="btn btn-success">
+        <i class="bi bi-plus-circle"></i> New Transfer
+    </a>
+</div>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-bordered table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Description</th>
+                <th>Approved</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model.Count; i++)
+            {
+                <tr>
+                    <td>@(i + 1)</td>
+                    <td>@Model[i].Description</td>
+                    <td>
+                        @if (Model[i].IsApprove)
+                        {
+                            <span class="badge bg-success">Yes</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-secondary">No</span>
+                        }
+                    </td>
+                    <td>
+                        <a href="@Url.Action("Create", "Transfer", new { id = Model[i].TransferId, area = "Admin" })" class="btn btn-sm btn-primary me-1">
+                            <i class="bi bi-pencil-square"></i> Edit
+                        </a>
+
+                        @if (!Model[i].IsApprove)
+                        {
+                            <a href="@Url.Action("Approve", "Transfer", new { id = Model[i].TransferId, area = "Admin" })" class="btn btn-sm btn-success me-1" onclick="return confirm('Are you sure to approve this transfer?');">
+                                <i class="bi bi-check-circle"></i> Approve
+                            </a>
+                        }
+
+                        <a href="@Url.Action("Delete", "Transfer", new { id = Model[i].TransferId, area = "Admin" })" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure to delete this transfer?');">
+                            <i class="bi bi-trash"></i> Delete
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <div class="alert alert-info">No transfers found.</div>
+}
